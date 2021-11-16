@@ -74,6 +74,13 @@ h2 {
   margin-top: 4rem;
 }
 
+.built {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2rem;
+  float: bottom;
+}
+
 @media only screen and (max-width: 968px) {
   .projects {
     flex-direction: column;
