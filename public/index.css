@@ -1,0 +1,114 @@
+.feather:hover {
+  fill: rgb(46, 164, 243);
+}
+span {
+  color: rgb(46, 164, 243);
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.card-body {
+  height: fit-content;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.projects-contain {
+  width: 100%;
+  height: 30rem;
+
+  padding: auto;
+  margin-bottom: 4rem;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 4rem 2rem;
+}
+
+.card-img-top:hover {
+  cursor: pointer;
+  transform: scale(2.2);
+  transition: 2s;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  transform: none;
+  margin-top: 2rem;
+}
+
+.container-sm {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 50%;
+  margin-left: 2rem;
+}
+
+.about {
+  margin-bottom: 10rem;
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 968px) {
+  .projects {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .projects-contain {
+    height: auto;
+  }
+  .card {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .info {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .profile {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .container-sm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+  }
+
+  footer {
+    margin: auto;
+  }
+}
