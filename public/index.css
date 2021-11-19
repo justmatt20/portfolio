@@ -43,6 +43,13 @@ span {
 h2 {
   text-align: center;
   margin: 4rem 2rem;
+  color: black;
+}
+
+h2:hover {
+  color: rgb(46, 164, 243);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .card-img-top:hover {
@@ -117,5 +124,9 @@ h2 {
 
   footer {
     margin: auto;
+  }
+
+  .about {
+    margin-top: 1rem;
   }
 }
